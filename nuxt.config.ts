@@ -28,6 +28,15 @@ export default defineNuxtConfig({
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 				{ name: 'description', content: 'This project on Nuxt4' }
 			],
+			htmlAttrs: {
+				lang: 'en'
+			},
 		}
-	}
+	},
+	image: {
+		//quality: 80
+	},
+	plugins: [
+		//'~/plugins/auth.ts'
+	]
 })
